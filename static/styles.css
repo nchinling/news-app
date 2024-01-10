@@ -1,5 +1,15 @@
 /* styles.css */
 
+.titleFont {
+    font-family: Courier, monospace; 
+    font-weight: bold;
+}
+
+.h2Font {
+    font-family: Courier, monospace; 
+    font-weight: bold;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -8,11 +18,19 @@ table {
 
 th, td {
     /* border: 1px solid #ddd; */
-    border: 1px solid #db1c1c;
+    /* border: 0.5px solid lightgrey; */
     padding: 8px;
     text-align: left;
     font-size: 14px;
 }
+
+.column-no { width: 2%; }
+.column-title { width: 25%; }
+.column-category { width: 5%; }
+.column-description { width: 33%; }
+.column-source { width: 5%; }
+.column-image { width: 10%; }
+.column-published { width: 5%; }
 
 th {
     background-color: #f2f2f2;
@@ -26,4 +44,14 @@ td img {
 td a {
     color: #007bff;
     text-decoration: none;
+}
+
+.container {
+    margin-top:10px;
+    /* max-width: 1000px;  */
+    /* margin: 0 auto;    */
+    /* padding: 20px;     */
+    /* background-color: #f0f0f0; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
 }

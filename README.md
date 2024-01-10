@@ -2,13 +2,16 @@
 
 ## Overview
 
-News App is a web application that provides users with the latest news articles. Users can view a list of news articles, search for specific topics, and read more about interesting articles.
+NewsHub is a web application that provides users with the latest news articles. Users can view a list of news articles, search for specific topics, and read more about interesting articles. The app is developed using Flask and several http libraries. The live news sources are obtained from Mediastack API with a 30 minute delay. 
 
 ## Features
 
 1. **Latest News Display:**
-   - The homepage displays the latest news articles by default.
-   - Articles are categorised, showing details such as title, category, author, description, source, image, and published date.
+   - The homepage displays the latest 10 news articles by default.
+   - Articles are categorised, showing details such as title, category, description, source, image, and published date and time.
+
+2. **Null image handling:**
+   - Null images are replaced with an alternative image.
 
 2. **Search Functionality:**
    - Users can perform searches by entering keywords in the search bar.
